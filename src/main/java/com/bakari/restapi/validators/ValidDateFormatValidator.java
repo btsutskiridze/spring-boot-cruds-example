@@ -4,7 +4,6 @@ package com.bakari.restapi.validators;
 import com.bakari.restapi.constraint.ValidDateFormatConstraint;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

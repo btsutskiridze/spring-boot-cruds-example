@@ -1,13 +1,11 @@
 package com.bakari.restapi.validators.user;
 
 import com.bakari.restapi.constraint.user.UniqueEmailConstraint;
-import com.bakari.restapi.model.User;
 import com.bakari.restapi.repository.UserRepository;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Optional;
 
 public class UniqueEmailValidator implements ConstraintValidator<UniqueEmailConstraint, String> {
     @Autowired
